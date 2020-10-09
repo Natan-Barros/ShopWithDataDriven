@@ -1,30 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nn5115\\Desktop\\estudo\\ShopWithDataDriven\\Shop.csproj": {}
+    "/home/natanbarros/Project/Shop/Shop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nn5115\\Desktop\\estudo\\ShopWithDataDriven\\Shop.csproj": {
+    "/home/natanbarros/Project/Shop/Shop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nn5115\\Desktop\\estudo\\ShopWithDataDriven\\Shop.csproj",
+        "projectUniqueName": "/home/natanbarros/Project/Shop/Shop.csproj",
         "projectName": "Shop",
-        "projectPath": "C:\\Users\\nn5115\\Desktop\\estudo\\ShopWithDataDriven\\Shop.csproj",
-        "packagesPath": "C:\\Users\\nn5115\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nn5115\\Desktop\\estudo\\ShopWithDataDriven\\obj\\",
+        "projectPath": "/home/natanbarros/Project/Shop/Shop.csproj",
+        "packagesPath": "/home/natanbarros/.nuget/packages/",
+        "outputPath": "/home/natanbarros/Project/Shop/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\nn5115\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/natanbarros/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -41,6 +36,20 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[3.1.8, )"
@@ -48,6 +57,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0-rc4, )"
             }
           },
           "imports": [
@@ -68,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
         }
       }
     }
